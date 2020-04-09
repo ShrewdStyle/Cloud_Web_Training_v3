@@ -10,6 +10,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: $background-color;
   color: $light-color;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 ul {
@@ -235,7 +237,7 @@ a {
 // ----- Parallax One ----- //
 
 .parallax {
-  background: url("/dist/img/scroll2.jpg") no-repeat center center / cover;
+  background: url("/dist/img/scroll3.jpg") no-repeat center center / cover;
   background-attachment: fixed;
   height: 600px;
 }
@@ -289,6 +291,12 @@ a {
 }
 
 #skillsInfo {
+  .ourSkills {
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    color: lightgray;
+  }
+
   .skills-chart {
     padding: 3rem 0;
 
@@ -399,13 +407,32 @@ a {
 // ----- Numbers section ----- //
 
 #numbers {
-  height: 400px;
+  height: 300px;
+
+  .numbersContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+
+    .numberSection {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+
+      .number {
+        font-size: 4rem;
+        font-weight: bold;
+        color: $primary-color;
+      }
+    }
+  }
 }
 
 // ----- Footer ----- //
 
 #main-footer {
-  height: 300px;
+  height: 400px;
   background: black;
 
   .container {
@@ -414,6 +441,12 @@ a {
     height: 100%;
     text-align: center;
     justify-content: center;
+
+    .email {
+      font-size: 3rem;
+      padding-bottom: 3rem;
+      font-weight: bold;
+    }
 
     .socialmedia {
       padding: 1rem;
