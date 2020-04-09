@@ -76,9 +76,81 @@
 @media (max-width: 630px) {
   .sectionContainer .infoContainer {
     padding: 8rem 3rem; }
+  #nav-Container .nav-Ul li {
+    padding: 1rem;
+    font-size: 16px; }
+  #nav-Container .nav-Ul a:hover {
+    color: #57b0cd; }
   .infoContainer .blogsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 8rem 0; }
     .infoContainer .blogsContainer .blog {
-      padding: 4rem 0; } }
+      padding: 4rem 0; }
+  #skillsInfo .skills-chart .skill {
+    padding: 2rem 2rem 2rem 0; }
+    #skillsInfo .skills-chart .skill .percent {
+      font-size: 2rem;
+      margin-right: 3rem;
+      color: #ccc; }
+    #skillsInfo .skills-chart .skill .name {
+      font-size: 1.2rem; }
+    #skillsInfo .skills-chart .skill .percent-bar {
+      width: 300px; } }
+
+@media (max-width: 550px) {
+  #numbers {
+    height: 1000px; }
+    #numbers .numbersContainer {
+      grid-template-columns: repeat(1, 1fr);
+      padding-bottom: 2rem; }
+      #numbers .numbersContainer .numberSection {
+        padding: 1.5rem 1.5rem;
+        display: block;
+        text-align: center; } }
+
+@media (max-width: 480px) {
+  #skillsInfo .skills-chart .skill {
+    padding: 2rem 2rem 2rem 0; }
+    #skillsInfo .skills-chart .skill .percent {
+      font-size: 2rem;
+      margin-right: 3rem;
+      color: #ccc; }
+    #skillsInfo .skills-chart .skill .name {
+      font-size: 1.2rem; }
+    #skillsInfo .skills-chart .skill .percent-bar {
+      width: 200px; }
+  #nav-Container .nav-Ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0; }
+    #nav-Container .nav-Ul li {
+      padding: 1rem 0.5rem;
+      font-size: 12px; }
+  .slideshow-Container .headerContainer h1 {
+    font-size: 4rem; }
+  .aboutGrid .aboutI {
+    padding: 2rem 0; }
+  #main-footer .container .email {
+    font-size: 1.5rem; }
+  #main-footer .container .socialmedia {
+    padding: 1rem; }
+    #main-footer .container .socialmedia a:nth-child(5) {
+      display: none; } }
+
+@media (max-width: 410px) {
+  .slideshow-Container .headerContainer {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 1rem 2rem 1rem 2rem; }
+  #main-footer .container .email {
+    font-size: 1.2rem; }
+  #main-footer .container .socialmedia {
+    padding: 1rem; }
+    #main-footer .container .socialmedia a:nth-child(4) {
+      display: none; }
+  #skillsInfo .skills-chart .skill {
+    padding: 2rem 2rem 2rem 0; }
+    #skillsInfo .skills-chart .skill .percent-bar {
+      width: 150px; } }
