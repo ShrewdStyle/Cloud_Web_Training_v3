@@ -1,0 +1,84 @@
+@media (max-width: 1550px) {
+  .sectionContainer .infoContainer {
+    padding: 8rem 4rem; }
+  #news h2 {
+    font-size: 3rem; } }
+
+@media (max-width: 1224px) {
+  .sectionContainer .infoContainer {
+    padding: 8rem 3rem; }
+  .sectionContainer {
+    display: flex; }
+    .sectionContainer .sectionBanner {
+      padding: 6rem 6% 5rem 10%; }
+    .sectionContainer #news h2 {
+      font-size: 2.5rem; }
+    .sectionContainer .infoContainer .blogsContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 8rem 0; }
+    .sectionContainer #contactBanner {
+      background-color: black; }
+      .sectionContainer #contactBanner h2 {
+        font-size: 3rem; }
+    .sectionContainer #about .aboutI {
+      display: flex;
+      padding: 2rem 0.5rem; }
+    .sectionContainer .blog {
+      padding: 4rem 1rem; } }
+
+@media (max-width: 1100px) {
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4rem 0; }
+    .aboutGrid .aboutI {
+      display: flex;
+      padding: 2rem; }
+      .aboutGrid .aboutI .icon {
+        padding: 1rem;
+        margin-right: 1rem; } }
+
+@media (max-width: 1000px) {
+  .sectionContainer {
+    display: block;
+    width: 100%; }
+    .sectionContainer .infoContainer {
+      width: 100%; }
+  .sectionBanner,
+  #aboutBanner,
+  #servicesBanner,
+  #newsBanner,
+  #skillsBanner,
+  #contactBanner {
+    width: 100%; }
+  .sectionContainer .infoContainer {
+    padding: 8rem 7rem; }
+  .sectionContainer .sectionBanner h2 {
+    font-size: 4rem;
+    word-spacing: 0;
+    margin-bottom: 3rem; } }
+
+@media (max-width: 850px) {
+  .sectionContainer .infoContainer {
+    padding: 8rem 4rem; }
+  #main-footer .container .email {
+    font-size: 2rem; }
+  #numbers {
+    height: 600px; }
+    #numbers .numbersContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100%; }
+      #numbers .numbersContainer .numberSection {
+        padding: 1.5rem 1.5rem; } }
+
+@media (max-width: 630px) {
+  .sectionContainer .infoContainer {
+    padding: 8rem 3rem; }
+  .infoContainer .blogsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 8rem 0; }
+    .infoContainer .blogsContainer .blog {
+      padding: 4rem 0; } }

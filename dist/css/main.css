@@ -103,7 +103,7 @@ a {
   display: flex; }
   .sectionContainer .sectionBanner {
     width: 35%;
-    padding: 6rem 10% 5rem 15%;
+    padding: 6rem 10% 5rem 13%;
     display: flex;
     flex-direction: column; }
     .sectionContainer .sectionBanner .wordWrap {
@@ -279,7 +279,8 @@ a {
       display: flex;
       flex-direction: column;
       text-align: center;
-      justify-content: center; }
+      justify-content: center;
+      padding: 0 1.5rem; }
       #numbers .numbersContainer .numberSection .number {
         font-size: 4rem;
         font-weight: bold;
